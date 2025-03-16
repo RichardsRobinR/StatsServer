@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-8f0&1qd*#xv%2ca_h#$8c1-*%3&=jzrtqj02igxp*o%d!me#1q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "richiedevportfolio.onrender.com",
@@ -158,5 +158,7 @@ CORS_ALLOW_HEADERS = (
 )
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://richardsrobinr.github.io/RichieDevPortfolio/",
+    "https://richardsrobinr.github.io",
 ]
 
