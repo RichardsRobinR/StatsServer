@@ -49,7 +49,7 @@ def weather():
     # https: // api.openweathermap.org / data / 2.5 / weather?q = mysuru & appid = e853cd137996e5a3c2a1cad355747abd
     api_key = "e853cd137996e5a3c2a1cad355747abd"
     base_url = "https://api.openweathermap.org/data/2.5/weather"
-    city_name = "mysuru"
+    city_name = "bangalore"
 
     complete_url = base_url + "?q=" + city_name + "&appid=" + api_key
 
